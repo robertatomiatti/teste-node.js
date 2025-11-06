@@ -9,6 +9,17 @@ It simulates basic banking operations such as deposits, withdrawals, and balance
 
 ---
 
+### 🧠 Tech Stack
+- **Node.js** + **TypeScript**
+- **Apollo Server (GraphQL)**
+- **Prisma ORM**
+- **PostgreSQL**
+- **Jest** (unit testing)
+- **Docker & Docker Compose**
+- **ESLint + Prettier**
+
+---
+
 ## Quick Start (local)
 
 1. Copie `.env.example` para `.env` e ajuste `DATABASE_URL` se necessário.
@@ -22,17 +33,6 @@ It simulates basic banking operations such as deposits, withdrawals, and balance
 `docker-compose up --build`
 
 A aplicação executará migrações antes de iniciar.
-
----
-
-### 🧠 Tech Stack
-- **Node.js** + **TypeScript**
-- **Apollo Server (GraphQL)**
-- **Prisma ORM**
-- **PostgreSQL**
-- **Jest** (unit testing)
-- **Docker & Docker Compose**
-- **ESLint + Prettier**
 
 ---
 
